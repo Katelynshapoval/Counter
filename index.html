@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="counter_styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/Katelynshapoval/Counter/main/wolf.png">
+        <title>Counter</title>
+    </head>
+    <body>
+        <h2>Counter</h2>
+        <div id="motivation">
+            <img id = "bird-right" align="left" src="https://raw.githubusercontent.com/Katelynshapoval/Counter/main/wolf.png">
+            <!-- Here goes the quote machine -->
+            <p id="quote">
+                GUIDE
+                <br>
+                <br>
+                This website can be used to count the amount of <br>words/symbols/sentences in a string.
+                <br>
+                To do so, just paste the text in the input field below.</p>
+            <img id = "bird-left" align="right" src="https://raw.githubusercontent.com/Katelynshapoval/Counter/main/wolf.png">
+        </div>
+        <textarea id="text-area" placeholder="Start writing here." data-lt-tmp-id="lt-548024" spellcheck="false" data-gramm="false"></textarea>
+        <div id="count">
+            <p id="words">Words: <span id="words_num"></span></p>  
+            <p id="symbols">Symbols: <span id="symbols_num"></span></p>
+            <p id="sentences">Sentences: <span id="sentences_num"></span></p>
+        </div>
+        <script src="counter_func.js"></script>
+    </body>
+</html>

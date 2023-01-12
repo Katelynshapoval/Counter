@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: "Courier New", sans-serif;    ;
+}
+#motivation{
+    background-color: white;
+    color: black;
+    margin:20px 0;
+    text-align:center;
+    display: inline-block;
+    width:100%;
+}
+#motivation img{
+    height:200px;
+    margin: 0 70px;
+    padding:0;
+}
+#motivation p{
+    text-align:center;
+    display:inline-flex;
+    padding-top:30px;
+}
+textarea{
+    width: 90%;
+    height: 500px;
+    vertical-align: top;
+    padding: 15px;
+}
+#count{
+    text-align:left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#count p{
+    display: inline;
+    padding-right: 50px;
+}
